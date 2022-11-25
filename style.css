@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 65.7%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.nav{
+    background: black;
+    width: 100vw;
+    height: 11vh;
+    padding: 1.7rem;
+    z-index: 1000;
+}
+
+.nav__content{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-right:20rem ;
+    padding-left:30rem ;
+    height: 100%;
+    width: 100%;
+}
+
+.items a{
+  
+        text-decoration: none;
+        font-size:1.6rem;
+        color:white;
+        margin: 1rem;
+        
+}
+
+.logo{
+    margin-right: 1rem;
+    height: 4rem;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+
+.text{
+    font-size: 2.5rem;
+}
+
+/*////////////////////////////// HEADER*/
+.header{
+    height: 89vh;
+    width: 100vw;
+    background: url(/images/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header_content{
+    margin-top:20rem;
+    float: right;
+    align-items: center;
+    width: 75rem;
+}
+.hero{
+    position: absolute;
+    left: 13rem;
+    bottom: 0;
+    height:50rem;
+}
+.heading{
+    color: black;
+    font-size: 5.2rem;
+}
+
+.btn{
+         background-color: white;
+        margin-top: 2rem;
+         font-weight: 700;
+         text-transform: uppercase;
+         text-decoration: none;
+         padding:2rem 1.5rem;
+         border-radius: 40px;
+         transition: all 0.2s;
+         border: none;
+         cursor: pointer;
+         box-shadow: 0 10px 20px rgba(0, 0,0, 0.2)
+     }
+
+
+.btn:hover{
+    transform: scale(1.2);
+}
+/*///////////////// CARD */
+.menu__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-bottom: 4rem;
+    
+}
+
+.heading-4{
+    margin-top: 2rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.pro-card{
+    padding: 3rem;
+    text-align: center;
+
+}
+
+.text-2{
+    margin-top: 1.5rem;
+    font-size:1.4rem;
+    color: black;
+}
+
+.mid{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/*////////////////// FREE*/
+.free{
+    text-align: center;
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.free_content{
+padding-top: 150px;
+}
+
+.heading-2{
+    font-size: 48px;
+}
+
+.color{
+    font-weight:700 ;
+color:black ;
+}
+
+/*///////////// FOOTER */
+.footer{
+    width: 100%;
+    height: 70vh;
+    color: white;
+    background-color: black;
+    padding-block: 10rem;
+    padding-inline: 5rem;
+}
+.footer__lists{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.footer__content{
+    
+    width: 55vw;
+    font-size: 1.7rem;
+    padding-left:10rem ;
+    margin-inline:10rem ;
+    margin-right:14rem ;
+}
+.list-item{
+   list-style: none;
+   margin-top: 2rem;
+}
+.list-item a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.list-item:hover a{
+    color: green;
+}
+
+.gr{
+    font-size: 1.4rem;
+    color: grey;
+}
